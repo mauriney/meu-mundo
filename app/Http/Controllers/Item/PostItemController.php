@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Item;
 
-use App\Models\Item;
+use App\Http\Controllers\Controller;
+use App\Models\Item\Item;
 use Illuminate\Http\Request;
 
 class PostItemController extends Controller

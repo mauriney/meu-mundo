@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PostItemController;
+use App\Http\Controllers\Item\PostItemController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
